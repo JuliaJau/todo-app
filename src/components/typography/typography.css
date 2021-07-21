@@ -1,16 +1,16 @@
 h1 {
   font-size: 3.92rem;
-  font-weight: var(--fw-primary-bold);
+  font-weight: var(--fw-primary);
 }
 
 h2 {
   font-size: 2.67rem;
-  font-weight: var(--fw-primary);
+  font-weight: var(--fw-primary-light);
 }
 
 h3 {
   font-size: 1.25rem;
-  font-weight: var(--fw-primary);
+  font-weight: var(--fw-primary-light);
   text-transform: uppercase;
 }
 
@@ -22,5 +22,5 @@ h4 {
 h5,
 h6 {
   font-size: 1rem;
-  font-weight: var(--fw-primary);
+  font-weight: var(--fw-primary-light);
 }
