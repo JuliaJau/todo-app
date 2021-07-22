@@ -1,0 +1,25 @@
+<form action="taskform" method="post">
+  <ul>
+    <li>
+      <label for="description">DESCRIPTION:</label>
+      <input
+        type="text"
+        placeholder="Enter Task"
+        id="addtask"
+        name="user_task"
+      />
+    </li>
+  </ul>
+
+  <fieldset>
+    <legend>WHEN</legend>
+    <input type="radio" id="radio" />
+    <label for="today">Today</label>
+    <input type="radio" id="radio" />
+    <label for="tommorrow">Tommorrow</label>
+    <input type="radio" id="radio" />
+    <label for="selectdate">Select Date</label>
+  </fieldset>
+
+  <button type="submit">Add Task</button>
+</form>
