@@ -2,7 +2,8 @@
   background-color: var(--clr-primary);
   position: absolute;
   border-top-left-radius: 0.5em;
-  padding: 1.5em;
+  border-style: none;
+  padding: 1.5em 1.9em;
   right: 0;
   bottom: 0;
 }
