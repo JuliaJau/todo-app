@@ -1,4 +1,4 @@
 .burgerbutton {
-  border-style: none;
-  background: none;
+  background-color: transparent;
+  border: 0;
 }
