@@ -22,7 +22,7 @@ form {
   font-size: 1.2em;
   letter-spacing: 0.32px;
   font-weight: var(--fw-primary);
-  justify-self: flex-end;
+  align-self: flex-end;
 }
 
 input[type="text"] {
