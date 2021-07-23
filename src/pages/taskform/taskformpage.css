@@ -1,0 +1,6 @@
+.taskformpage {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 2.3fr;
+  margin: 0 0 3rem 1.5rem;
+}
