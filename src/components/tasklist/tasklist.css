@@ -1,7 +1,10 @@
-.tasklist {
+.tasklist-container {
   background-color: var(--clr-content);
   display: flex;
   flex-direction: column;
+  line-height: 3;
+  padding: 2rem;
+  font-size: 1.1rem;
 }
 
 input[value="task"] {
