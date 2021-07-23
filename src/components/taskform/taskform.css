@@ -3,7 +3,6 @@
 }
 
 .wrapper {
-  margin: 0 0 3rem 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -23,7 +22,7 @@ form {
   font-size: 1.2em;
   letter-spacing: 0.32px;
   font-weight: var(--fw-primary);
-  justify-self: flex-end;
+  align-self: flex-end;
 }
 
 input[type="text"] {
@@ -54,6 +53,12 @@ label[for="task"] {
   letter-spacing: 3px;
 }
 
+fieldset {
+  margin: 4rem 0;
+  padding: 0;
+  border: none;
+}
+
 .fieldset-wrapper {
   background-color: #f7f7f7;
   display: flex;
@@ -67,10 +72,4 @@ label[for="task"] {
 
 .fieldset-wrapper input[type="radio"]:checked + label {
   color: var(--clr-primary);
-}
-
-fieldset {
-  margin: 3rem 0;
-  padding: 0;
-  border: none;
 }
