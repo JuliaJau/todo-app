@@ -1,21 +1,22 @@
 <div class="outerwrapper">
-  <form class="form">
+  <form action="">
     <div class="wrapper">
-      <label class="entertask" for="description"
-        >DESCRIPTION
-        <input class="enter" placeholder="Enter Task" id="entertask" />
-      </label>
+      <label for="task">Description</label>
+      <input type="text" name="task" id="task" placeholder="Enter Task" />
 
-      <fieldset class="when">
+      <fieldset>
         <legend>WHEN</legend>
-        <input type="radio" id="radio" />
-        <label for="today">Today</label>
-        <input type="radio" id="radio" />
-        <label for="tommorrow">Tommorrow</label>
-        <input type="radio" id="radio" />
-        <label for="selectdate">Select Date</label>
+        <div class="fieldset-wrapper">
+          <input type="radio" id="radio" />
+          <label for="today">Today</label>
+          <input type="radio" id="radio" />
+          <label for="tommorrow">Tommorrow</label>
+          <input type="radio" id="radio" />
+          <label for="selectdate">Select Date</label>
+        </div>
       </fieldset>
     </div>
-    <button class="submit-b" type="submit">Add Task</button>
+
+    <button class="submit-btn" type="submit">Add Task</button>
   </form>
 </div>
