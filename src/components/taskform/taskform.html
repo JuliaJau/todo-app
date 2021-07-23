@@ -1,18 +1,21 @@
-<form class="container">
-  <label class="entertask" for="description"
-    >DESCRIPTION
-    <input type="text" placeholder="Enter Task" id="entertask" />
-  </label>
+<div class="outerwrapper">
+  <form class="form">
+    <div class="wrapper">
+      <label class="entertask" for="description"
+        >DESCRIPTION
+        <input class="enter" placeholder="Enter Task" id="entertask" />
+      </label>
 
-  <fieldset>
-    <legend>WHEN</legend>
-    <input type="radio" id="radio" />
-    <label for="today">Today</label>
-    <input type="radio" id="radio" />
-    <label for="tommorrow">Tommorrow</label>
-    <input type="radio" id="radio" />
-    <label for="selectdate">Select Date</label>
-  </fieldset>
-
-  <button class="submit-btn" type="submit">Add Task</button>
-</form>
+      <fieldset class="when">
+        <legend>WHEN</legend>
+        <input type="radio" id="radio" />
+        <label for="today">Today</label>
+        <input type="radio" id="radio" />
+        <label for="tommorrow">Tommorrow</label>
+        <input type="radio" id="radio" />
+        <label for="selectdate">Select Date</label>
+      </fieldset>
+    </div>
+    <button class="submit-b" type="submit">Add Task</button>
+  </form>
+</div>

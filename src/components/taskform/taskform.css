@@ -1,12 +1,28 @@
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+.form {
+  margin: 0;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  border: none;
   justify-content: space-between;
-  height: 70vh;
 }
 
 .description {
-  font-family: var(--ff-primary);
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  border: none;
+  font-weight: var(--fw-primary);
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
 }
 
 #entertask {
