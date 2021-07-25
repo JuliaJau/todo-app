@@ -1,10 +1,13 @@
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.filter-nav-link {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transform: rotate(-90deg);
 }
 
 a {
   text-decoration: none;
+  font-weight: var(--fw-primary);
+  color: var(--clr-content-passive);
 }
