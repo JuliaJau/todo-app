@@ -1,13 +1,16 @@
 .filter-nav-link {
   display: flex;
   flex-direction: row;
-  text-transform: uppercase;
+  writing-mode: vertical-rl;
   letter-spacing: 3px;
-  transform: rotate(-90deg);
+  transform: rotate(180deg);
 }
 
 a {
   text-decoration: none;
+  font-size: 0.8rem;
   font-weight: var(--fw-primary);
+  text-transform: uppercase;
   color: var(--clr-content-passive);
+  padding: 2rem;
 }
