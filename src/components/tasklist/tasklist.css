@@ -1,17 +1,13 @@
-.tasklist-container {
-  background-color: var(--clr-content);
-  display: flex;
-  flex-direction: column;
-  line-height: 3;
-  padding: 2rem;
-  font-size: 1.1rem;
+.taskItem {
+  display: block;
 }
 
-input[value="task"] {
-  display: none;
+.taskItem__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
-input[value="task"]:checked + label {
-  text-decoration-line: line-through;
-  text-decoration-color: var(--clr-primary);
+.taskItem__checkbox:checked + .taskItem__labelText {
+  text-decoration: line-through 0.14em var(--clr-primary);
 }
