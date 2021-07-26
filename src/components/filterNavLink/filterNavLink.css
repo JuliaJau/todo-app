@@ -1,16 +1,9 @@
-.filter-nav-link {
-  display: flex;
-  flex-direction: row;
-  writing-mode: vertical-rl;
-  letter-spacing: 3px;
-  transform: rotate(180deg);
+.taskItem {
+  display: block;
 }
 
-a {
-  text-decoration: none;
-  font-size: 0.8rem;
-  font-weight: var(--fw-primary);
-  text-transform: uppercase;
-  color: var(--clr-content-passive);
-  padding: 2rem;
+.taskItem__checkbox {
+}
+
+.taskItem__labelText {
 }
