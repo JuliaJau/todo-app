@@ -1,5 +1,6 @@
 import "./tasklist.css";
 import tasklist from "./tasklist.html";
+import tasklistDone from "./tasklistDone.html";
 
 export default {
   title: "Components/Tasklist",
@@ -7,3 +8,4 @@ export default {
 };
 
 export const regular = () => tasklist;
+export const done = () => tasklistDone;
