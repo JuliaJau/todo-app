@@ -1,9 +1,11 @@
 import "./iconButton.css";
-import iconButton from "./iconButton-menu.html";
+import iconButtonMenu from "./iconButton-menu.html";
+import iconButtonNotification from "./iconButton-notification.html";
 
 export default {
   title: "Components/IconButton",
   parameters: { layout: "centered" },
 };
 
-export const regular = () => iconButton;
+export const menu = () => iconButtonMenu;
+export const notification = () => iconButtonNotification;
