@@ -1,5 +1,5 @@
 import "./iconButton.css";
-import iconButton from "./iconButton.html";
+import iconButton from "./iconButton-menu.html";
 
 export default {
   title: "Components/IconButton",
