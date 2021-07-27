@@ -83,7 +83,7 @@ h6 {
 
 .headerMenu {
   display: grid;
-  padding: 1em;
+  padding: 1.8em;
   grid-area: 2/1/3/3;
   grid-auto-flow: column;
   justify-content: space-between;
@@ -99,6 +99,7 @@ h6 {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 3em 1.8em;
 }
 .taskNavLink {
   color: var(--clr-text-passive);
