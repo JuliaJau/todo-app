@@ -131,3 +131,13 @@ h6 {
 .taskItem__checkbox:checked + .taskItem__labelText {
   text-decoration: line-through 0.14em var(--clr-primary);
 }
+
+.actionbutton {
+  background-color: var(--clr-primary);
+  position: absolute;
+  border-top-left-radius: 0.5rem;
+  border-style: none;
+  padding: 1.9rem 2.5rem;
+  right: 0;
+  bottom: 0;
+}
