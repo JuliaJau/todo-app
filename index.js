@@ -1,13 +1,26 @@
 const taskList = document.querySelector(".taskList");
-const potentialTask = {
-  title: "Get groceries",
-  date: "Tomorrow",
-  isDone: true,
-};
 
-const taskFromObject = createTaskListItem(potentialTask);
+const tasks = [
+  {
+    title: "Get groceries",
+    date: "Tomorrow",
+    isDone: true,
+  },
+  {
+    title: "Get groceries",
+    date: "Tomorrow",
+    isDone: true,
+  },
+  {
+    title: "Get groceries",
+    date: "Tomorrow",
+    isDone: true,
+  },
+];
 
-taskList.append(taskFromObject);
+const taskListItem = tasks.map((task) => createTaskListItem(task));
+
+taskList.append(...taskListItem);
 
 function createTaskListItem(task) {
   const taskListItem = document.createElement("label");
