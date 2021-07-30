@@ -2,23 +2,7 @@ import { parseJSONFromLocalStorage } from "/utils/localStorage.js";
 
 const taskList = document.querySelector(".taskList");
 
-const tasks = [
-  {
-    title: "Get groceries",
-    date: "Tomorrow",
-    isDone: true,
-  },
-  {
-    title: "Get groceries",
-    date: "Tomorrow",
-    isDone: true,
-  },
-  {
-    title: "Get groceries",
-    date: "Tomorrow",
-    isDone: true,
-  },
-];
+const tasks = parseJSONFromLocalStorage("tasks", []);
 
 const taskListItem = tasks.map((task) => createTaskListItem(task));
 
