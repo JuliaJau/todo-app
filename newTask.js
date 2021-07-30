@@ -1,3 +1,8 @@
+import {
+  stringifyJSONToLocalStorage,
+  parseJSONFromLocalStorage,
+} from "/utils/localStorage.js";
+
 const form = document.querySelector(".addTaskForm");
 
 form.onsubmit = function (event) {
@@ -19,4 +24,11 @@ form.onsubmit = function (event) {
   );
 
   console.log(newTask);
+
+  const oldTasks = parseJSONFromLocalStorage("tasks", []);
+
+  const newTasks = [...oldTasks, newTask];
+
+  stringifyJSONToLocalStorage("tasks", newTasks);
+  location.href = "/";
 };

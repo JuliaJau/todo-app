@@ -1,3 +1,5 @@
+import { parseJSONFromLocalStorage } from "/utils/localStorage.js";
+
 const taskList = document.querySelector(".taskList");
 
 const tasks = [
